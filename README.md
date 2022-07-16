@@ -1,4 +1,4 @@
-# ESP32_CNC_SHIELD_V1.1_30PIN
+# ESP32_CNC_SHIELD_V1.2_30PIN
  30PIN VERSION OF CNC SHIELD
  
  ![My Image](Images/Esp32_Cnc_Shield_30Pin_Front.png)
