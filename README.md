@@ -10,4 +10,4 @@ Voy a verificar si necesito poner MOSFET en el Nebulizador y igual añadir unos 
 
 Acaba de comprobar que todo funciona con esta configuración y publiqué el GCan_Cnc_Shield.h para copiar en Machines.
 
-En cuanto me llegue el modulo de tarjeta SD, lo instalaré y comprobar que funciona correctamente.
+En cuanto me llegue el modulo de tarjeta SD, lo instalaré y comprobar que funciona correctamente. 
