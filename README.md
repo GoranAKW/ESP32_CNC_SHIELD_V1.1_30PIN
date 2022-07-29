@@ -15,4 +15,4 @@ Llegó hoy y lo instalé, funcionó a la primera.
 
 Instalé este ESP_Cnc_Shield en mí máquina Cnc, sustituyendo un arduino uno con Cnc-Shield y copié los ajustes del viejo al nuevo, cambiando los pasos, limites y dirección del ciclo de la iniciación (Homing). Una maravilla poder trabajar desde un navegador y desde la tarjeta SD.
 
-Lo siguiente será poner un fuente de alimencación(Step Down) de 24V a 5V 500mA que necesita el Vin del ESP32, para que sea totelmente autónomo.
+Lo siguiente será poner un fuente de alimencación(Step Down) de 24V a 5V 500mA(9V 500mA), que necesita el Vin del ESP32, para que sea totalmente autónomo.
