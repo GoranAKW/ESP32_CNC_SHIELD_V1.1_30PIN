@@ -3,16 +3,16 @@
  
  ![My Image](Images/Esp32_Cnc_Shield_30Pin_Front.png)
 
-Estaba buscando devkits para el ESP32_CNC_SHIELD y encontré uno de 30 pines. Miré la disposición de pines y coincide casi al 100%.
-Lo que cambia son los 8 pines que son duplicados o no se usa, así que hice esta versión. Lo hice tan grande porque necesito espacio para las pistas y se pierde siempre algo cuando lo corta en la fresadora. Si funciona bien hago una versión SMD para encargar.
+I was looking for ESP32 devkits for my ESP32_CNC_SHIELD and found a 30 pin version. I made it so big because i needed space for the traces as sometimes i loose some accurancy milling it out. If it works as intended i`ll make a SMD version.
 
-Voy a verificar si necesito poner MOSFET en el Nebulizador(Mist) y igual añadir unos pines de 5 Voltios para los finales de carrera y el probe.
+I have to verify if its  needed to provide a MOSFET for the mist and add some 5V pins for the endstops and probe.
 
-Acaba de comprobar que todo funciona con esta configuración y publiqué el GCan_Cnc_Shield.h para copiar en Machines.
+Just checked that this configuration is working and published the header file to copy in Machines(GCan_Cnc_Shield.h).
 
-En cuanto me llegue el modulo de tarjeta SD, lo instalaré y comprobar que funciona correctamente. 
-Llegó hoy y lo instalé, funcionó a la primera.
+When the SD-card module arrives i'll check if it works correctly. 
+Today it arrived , so i installed and it worked fine.
 
-Instalé este ESP_Cnc_Shield en mí máquina Cnc, sustituyendo un arduino uno con Cnc-Shield y copié los ajustes del viejo al nuevo, cambiando los pasos, limites y dirección del ciclo de la iniciación (Homing). Una maravilla poder trabajar desde un navegador y desde la tarjeta SD.
+Installed the ESP_Cnc_Shield on my CNC machine, adjusted all values from the Arduino Uno: steps, Limits, homing directions, etc.
+Its marvelous to work from the web interface, then execute from the sd-card.
 
-Lo siguiente será poner un fuente de alimencación(Step Down) de 24V a 5V 500mA(9V 500mA), que necesita el Vin del ESP32, para que sea totalmente autónomo.
+Next up is to add a powersupply (StepDown) 24V to 5V 500mA(9V 500mA) wich the VIN needs to be able to remove the USB adapter.
